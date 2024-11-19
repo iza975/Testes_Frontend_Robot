@@ -1,48 +1,46 @@
-
 name: Robot Framework Tests
- 
-on: push
- 
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
-   test:
+  test:
     runs-on: ubuntu-latest
- 
+
     steps:
-      - name: clone do projeto
+      - name: Clone do projeto
         uses: actions/checkout@v4
-       
-      - name: configuração do python
+
+      - name: Configuração do Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
- 
-      - name: Instalação de dependência
-        # run: echo Instalação das depedências do Projeto
+
+      - name: Instalação das dependências
         run: |
-          pip install robotframework-seleniumlibrary
           pip install robotframework
+          pip install robotframework-seleniumlibrary
           pip install robotframework-requests
-         
- 
-      - name: rodando os testes
-        # run: echo Executando os testes de API do Robot
+
+      - name: Rodando os testes
         run: |
           robot --name "API Tests" --outputdir results/ tests/
-       
 
-      - name: Salvando os resultados dos testes   
+      - name: Salvando os resultados dos testes
         uses: actions/upload-artifact@v4
         if: always()
         with:
           name: resultado-testes
-          path: results 
- 
-   deploy:
-    name: configurar site
+          path: results/
+
+  deploy:
+    name: Configurar site
     runs-on: ubuntu-latest
     if: always()
     needs:
-    - test
+      - test
     permissions:
       contents: read
       pages: write
@@ -50,24 +48,21 @@ jobs:
     environment:
       name: github-pages
       url: https://iza975.github.io/Testes_Frontend_Robot/report.html
-     
-           
-       
+
     steps:
-      - name: Setup Pages
+      - name: Configurando GitHub Pages
         uses: actions/configure-pages@v2
- 
-      - name: Download Artifacts
+
+      - name: Baixando artefatos
         uses: actions/download-artifact@v4
         with:
           name: resultado-testes
           path: results/
- 
-      - name: Upload artifact
+
+      - name: Publicando artefatos no Pages
         uses: actions/upload-pages-artifact@v1
         with:
           path: results/
- 
-      - name: Deploy to Github Pages
-        id: deployment
+
+      - name: Deploy para o GitHub Pages
         uses: actions/deploy-pages@v1
