@@ -1,0 +1,1788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on win32)" generated="2024-11-18T22:19:59.732600" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests">
+<suite id="s1-s1" name="Cadastro Empresa" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\cadastro_empresa">
+<suite id="s1-s1-s1" name="Acesso Tela Cadastro Empresa" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\cadastro_empresa\acesso_tela_cadastro_empresa.robot">
+<test id="s1-s1-s1-t1" name="Fazer Login de usuario e acessar a tela de cadastro" line="10">
+<kw name="Abrir o navegador e acessar página inicial" owner="acesso_tela_cadastro_empresa">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:00.350876" level="INFO">Opening browser 'chrome' to base url 'https://automacao.qacoders.dev.br/login'.</msg>
+<msg time="2024-11-18T22:20:01.718783" level="WARN">The chromedriver version (130.0.6723.58) detected in PATH at C:\Users\Iza Wicki\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>${urlBase}</arg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:20:00.350876" elapsed="5.712554"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:06.100331" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</msg>
+<msg time="2024-11-18T22:20:06.162166" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="FAIL" start="2024-11-18T22:20:06.064428" elapsed="0.118688">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</kw>
+<status status="FAIL" start="2024-11-18T22:20:00.349879" elapsed="5.834231">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</kw>
+<kw name="Realizar Login" owner="acesso_tela_cadastro_empresa">
+<status status="NOT RUN" start="2024-11-18T22:20:06.188100" elapsed="0.000000"/>
+</kw>
+<kw name="Acessar Tela de Cadastro de Empresa" owner="acesso_tela_cadastro_empresa">
+<status status="NOT RUN" start="2024-11-18T22:20:06.190093" elapsed="0.000998"/>
+</kw>
+<status status="FAIL" start="2024-11-18T22:20:00.347856" elapsed="5.844232">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</test>
+<status status="FAIL" start="2024-11-18T22:19:59.808816" elapsed="6.400224"/>
+</suite>
+<suite id="s1-s1-s2" name="Acesso Tela Cadastro Usuario" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\cadastro_empresa\acesso_tela_cadastro_usuario.robot">
+<test id="s1-s1-s2-t1" name="Fazer Login de usuario e acessar a tela de cadastro" line="11">
+<kw name="Abrir o navegador e acessar página inicial" owner="acesso_tela_cadastro_usuario">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:06.319747" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg time="2024-11-18T22:20:08.049118" level="WARN">The chromedriver version (130.0.6723.58) detected in PATH at C:\Users\Iza Wicki\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:20:06.319747" elapsed="4.161859"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-18T22:20:10.484600" elapsed="0.237362"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:10.722962" level="INFO">Opening url 'https://automacao.qacoders.dev.br/login'</msg>
+<arg>url=${urlBase}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:20:10.722962" elapsed="8.601536"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:20:06.318748" elapsed="13.006748"/>
+</kw>
+<kw name="Realizar Login" owner="acesso_tela_cadastro_usuario">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${EMAIL_LOGIN}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:20:19.327489" elapsed="0.108710"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:19.437199" level="INFO">Typing text 'sysadmin@qacoders.com' into text field 'id=email'.</msg>
+<arg>${EMAIL_LOGIN}</arg>
+<arg>${EMAIL_VALIDO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:19.436199" elapsed="0.359040"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${SENHA_LOGIN}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:20:19.795239" elapsed="0.037905"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:19.834134" level="INFO">Typing password into text field 'id=password'.</msg>
+<msg time="2024-11-18T22:20:19.884002" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>${SENHA_LOGIN}</arg>
+<arg>${SENHA_VALIDA}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:19.833144" elapsed="0.150591"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${BOTAO_IMPUT}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:20:19.984731" elapsed="0.033909"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:20.019638" level="INFO">Clicking button 'id=login'.</msg>
+<arg>${BOTAO_IMPUT}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:20.018640" elapsed="0.109707"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:20:19.327489" elapsed="0.800858"/>
+</kw>
+<kw name="Acessar Tela de Cadastro de Usuários" owner="acesso_tela_cadastro_usuario">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${CADASTROS_BUTTON}</arg>
+<arg>timeout=60</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:20:20.129344" elapsed="0.493568"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:20.623910" level="INFO">Clicking element '//*[@id="Cadastros"]/span'.</msg>
+<arg>${CADASTROS_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:20.622912" elapsed="0.091726"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${USUARIOS_BUTTON}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:20:20.715636" elapsed="0.039893"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:20.757524" level="INFO">Clicking element '//*[@id="Usuários"]/span'.</msg>
+<arg>${USUARIOS_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:20.756524" elapsed="0.180517"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=edit</arg>
+<arg>timeout=30</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:20:20.937041" elapsed="0.385484"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:21.323522" level="INFO">Clicking element 'id=edit'.</msg>
+<arg>id=edit</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:21.322525" elapsed="0.084772"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:20:20.129344" elapsed="1.278952"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:20:06.316753" elapsed="15.091543"/>
+</test>
+<status status="PASS" start="2024-11-18T22:20:06.259905" elapsed="15.151383"/>
+</suite>
+<suite id="s1-s1-s3" name="Edicao Dados Empresa" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\cadastro_empresa\edicao_dados_empresa.robot">
+<test id="s1-s1-s3-t1" name="Editar company" line="12">
+<kw name="Fazer Login de usuario e acessar a tela de cadastro" owner="acesso_tela_cadastro_empresa" type="SETUP">
+<kw name="Abrir o navegador e acessar página inicial" owner="acesso_tela_cadastro_empresa">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:21.494065" level="INFO">Opening browser 'chrome' to base url 'https://automacao.qacoders.dev.br/login'.</msg>
+<msg time="2024-11-18T22:20:22.965871" level="WARN">The chromedriver version (130.0.6723.58) detected in PATH at C:\Users\Iza Wicki\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>${urlBase}</arg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:20:21.494065" elapsed="5.053041"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-18T22:20:26.547106" elapsed="0.113695"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:20:21.493068" elapsed="5.168730"/>
+</kw>
+<kw name="Realizar Login" owner="acesso_tela_cadastro_empresa">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:26.663793" level="INFO">Typing text 'sysadmin@qacoders.com' into text field 'id=email'.</msg>
+<arg>${EMAIL_LOGIN}</arg>
+<arg>${EMAIL_VALIDO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:26.662797" elapsed="0.542545"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${SENHA_LOGIN}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:20:27.206342" elapsed="0.056363"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:27.263705" level="INFO">Typing password into text field 'id=password'.</msg>
+<msg time="2024-11-18T22:20:27.345484" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>${SENHA_LOGIN}</arg>
+<arg>${SENHA_VALIDA}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:27.262705" elapsed="0.217420"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${BOTAO_IMPUT}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:20:27.481123" elapsed="0.063829"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:27.545947" level="INFO">Clicking button 'id=login'.</msg>
+<arg>${BOTAO_IMPUT}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:27.545947" elapsed="0.135639"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:20:26.661798" elapsed="1.019788"/>
+</kw>
+<kw name="Acessar Tela de Cadastro de Empresa" owner="acesso_tela_cadastro_empresa">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:28.325034" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</msg>
+<msg time="2024-11-18T22:20:28.346975" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</msg>
+<arg>${CADASTROS_BUTTON}</arg>
+<arg>timeout=3s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="FAIL" start="2024-11-18T22:20:27.683580" elapsed="0.671373">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${CADASTROS_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-11-18T22:20:28.354953" elapsed="0.000996"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${COMPANY_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-11-18T22:20:28.355949" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=edit</arg>
+<arg>timeout=5s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2024-11-18T22:20:28.355949" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>id=edit</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-11-18T22:20:28.356947" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-11-18T22:20:27.681586" elapsed="0.675361">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</kw>
+<status status="FAIL" start="2024-11-18T22:20:21.491072" elapsed="6.865875">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</kw>
+<status status="FAIL" start="2024-11-18T22:20:21.489077" elapsed="6.868869">Setup failed:
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</test>
+<status status="FAIL" start="2024-11-18T22:20:21.413289" elapsed="6.952635"/>
+</suite>
+<status status="FAIL" start="2024-11-18T22:19:59.804830" elapsed="28.565083"/>
+</suite>
+<suite id="s1-s2" name="Email" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\email">
+<suite id="s1-s2-s1" name="Edicao Email" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\email\edicao_email.robot">
+<test id="s1-s2-s1-t1" name="Cenario de Teste: Editar Email" line="16">
+<kw name="Fazer Login de usuario e acessar a tela de cadastro" owner="acesso_tela_cadastro_usuario" type="SETUP">
+<kw name="Abrir o navegador e acessar página inicial" owner="acesso_tela_cadastro_usuario">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:28.452692" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg time="2024-11-18T22:20:29.739019" level="WARN">The chromedriver version (130.0.6723.58) detected in PATH at C:\Users\Iza Wicki\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:20:28.452692" elapsed="3.648200"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-18T22:20:32.100892" elapsed="0.103723"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:32.205613" level="INFO">Opening url 'https://automacao.qacoders.dev.br/login'</msg>
+<arg>url=${urlBase}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:20:32.205613" elapsed="0.583438"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:20:28.451695" elapsed="4.337356"/>
+</kw>
+<kw name="Realizar Login" owner="acesso_tela_cadastro_usuario">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${EMAIL_LOGIN}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:20:32.790048" elapsed="0.106713"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:32.897761" level="INFO">Typing text 'sysadmin@qacoders.com' into text field 'id=email'.</msg>
+<arg>${EMAIL_LOGIN}</arg>
+<arg>${EMAIL_VALIDO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:32.897761" elapsed="0.424016"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${SENHA_LOGIN}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:20:33.321777" elapsed="0.036900"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:33.359674" level="INFO">Typing password into text field 'id=password'.</msg>
+<msg time="2024-11-18T22:20:33.415525" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>${SENHA_LOGIN}</arg>
+<arg>${SENHA_VALIDA}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:33.359674" elapsed="0.159576"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${BOTAO_IMPUT}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:20:33.519250" elapsed="0.031915"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:33.552160" level="INFO">Clicking button 'id=login'.</msg>
+<arg>${BOTAO_IMPUT}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:33.551165" elapsed="0.110706"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:20:32.790048" elapsed="0.871823"/>
+</kw>
+<kw name="Acessar Tela de Cadastro de Usuários" owner="acesso_tela_cadastro_usuario">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${CADASTROS_BUTTON}</arg>
+<arg>timeout=60</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:20:33.663862" elapsed="0.481074"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:34.144936" level="INFO">Clicking element '//*[@id="Cadastros"]/span'.</msg>
+<arg>${CADASTROS_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:34.144936" elapsed="0.089759"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${USUARIOS_BUTTON}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:20:34.234695" elapsed="0.040891"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:34.275586" level="INFO">Clicking element '//*[@id="Usuários"]/span'.</msg>
+<arg>${USUARIOS_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:34.275586" elapsed="0.119680"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:34.762644" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</msg>
+<msg time="2024-11-18T22:20:34.773612" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</msg>
+<arg>id=edit</arg>
+<arg>timeout=30</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="FAIL" start="2024-11-18T22:20:34.395266" elapsed="0.384333">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>id=edit</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-11-18T22:20:34.780597" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-11-18T22:20:33.662864" elapsed="1.117733">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</kw>
+<status status="FAIL" start="2024-11-18T22:20:28.450697" elapsed="6.330895">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</kw>
+<status status="FAIL" start="2024-11-18T22:20:28.445710" elapsed="6.336879">Setup failed:
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</test>
+<status status="FAIL" start="2024-11-18T22:20:28.379887" elapsed="6.410681"/>
+</suite>
+<suite id="s1-s2-s2" name="Editar Email Com Espacos" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\email\editar_email_com_espacos.robot">
+<test id="s1-s2-s2-t1" name="Cenario de teste: Editar campo &quot;E-mail&quot; contendo espaços" line="10">
+<kw name="Passo 1 - Acessar a pagina de login" owner="editar_email_com_espacos">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:34.828466" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg time="2024-11-18T22:20:36.023268" level="WARN">The chromedriver version (130.0.6723.58) detected in PATH at C:\Users\Iza Wicki\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:20:34.827470" elapsed="3.264854"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-18T22:20:38.092324" elapsed="0.112697"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:38.206019" level="INFO">Opening url 'https://automacao.qacoders.dev.br/'</msg>
+<arg>url=${urlBase}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:20:38.206019" elapsed="0.563491"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:20:34.826473" elapsed="3.943037"/>
+</kw>
+<kw name="Passo 2 - Digitar um e-mail válido" owner="editar_email_com_espacos">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=${emailInput}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:20:38.771506" elapsed="0.308177"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:39.080679" level="INFO">Typing text 'sysadmin@qacoders.com' into text field 'id=email'.</msg>
+<arg>locator=${emailInput}</arg>
+<arg>text=${emailValido}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:39.080679" elapsed="0.355567"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-11-18T22:20:45.437546" level="INFO">Slept 6 seconds.</msg>
+<arg>6</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-11-18T22:20:39.437243" elapsed="6.000303"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:20:38.770508" elapsed="6.667038"/>
+</kw>
+<kw name="Passo 3 - Digitar uma senha valida" owner="editar_email_com_espacos">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:45.442750" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</msg>
+<msg time="2024-11-18T22:20:45.450048" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</msg>
+<arg>locator=${senhaInput}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="FAIL" start="2024-11-18T22:20:45.438553" elapsed="0.016482">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<arg>locator=${senhaInput}</arg>
+<arg>password=${senhaValida}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-11-18T22:20:45.456064" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-11-18T22:20:45.456064" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-11-18T22:20:45.438553" elapsed="0.017511">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</kw>
+<kw name="Passo 4 - clicar no botao entrar" owner="editar_email_com_espacos">
+<status status="NOT RUN" start="2024-11-18T22:20:45.457164" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 5 - Acessar Tela de Cadastro de Usuários" owner="editar_email_com_espacos">
+<status status="NOT RUN" start="2024-11-18T22:20:45.457813" elapsed="0.000000"/>
+</kw>
+<kw name=" Passo 6 - Editar Nome e preencher o email com espaços" owner="editar_email_com_espacos">
+<status status="NOT RUN" start="2024-11-18T22:20:45.458402" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 7 - Clicar no Botão Salvar Alterações" owner="editar_email_com_espacos">
+<status status="NOT RUN" start="2024-11-18T22:20:45.458964" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 8 - Verificar Mensagem de Erro de Email Inválido" owner="editar_email_com_espacos">
+<status status="NOT RUN" start="2024-11-18T22:20:45.459517" elapsed="0.000000"/>
+</kw>
+<kw name="Fechar o navegador" owner="editar_email_com_espacos" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-18T22:20:45.459966" elapsed="2.209288"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:20:45.459966" elapsed="2.209288"/>
+</kw>
+<status status="FAIL" start="2024-11-18T22:20:34.824479" elapsed="12.844775">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</test>
+<status status="FAIL" start="2024-11-18T22:20:34.793566" elapsed="12.883662"/>
+</suite>
+<suite id="s1-s2-s3" name="Editar Email Com Formato .Com.Br" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\email\editar_email_com_formato_.com.br.robot">
+<test id="s1-s2-s3-t1" name="Cenario de teste: Editar campo &quot;E-mail&quot; com formato .com.br" line="8">
+<kw name="Abrir o navegador" owner="editar_email_com_formato_.com.br" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:47.710892" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg time="2024-11-18T22:20:48.627118" level="WARN">The chromedriver version (130.0.6723.58) detected in PATH at C:\Users\Iza Wicki\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:20:47.709888" elapsed="3.272815"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-18T22:20:50.983709" elapsed="0.122661"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:20:47.709888" elapsed="3.396482"/>
+</kw>
+<kw name="Passo 1 - Acessar a pagina de login" owner="editar_email_com_formato_.com.br">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:51.108366" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg time="2024-11-18T22:20:52.702547" level="WARN">The chromedriver version (130.0.6723.58) detected in PATH at C:\Users\Iza Wicki\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:20:51.108366" elapsed="3.885297"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-18T22:20:54.993663" elapsed="0.068814"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:55.065470" level="INFO">Opening url 'https://automacao.qacoders.dev.br/'</msg>
+<arg>url=${urlBase}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:20:55.063475" elapsed="0.566485"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:20:51.107369" elapsed="4.523596"/>
+</kw>
+<kw name="Passo 2 - Digitar um e-mail válido" owner="editar_email_com_formato_.com.br">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=${emailInput}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:20:55.631955" elapsed="0.310833"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:55.943784" level="INFO">Typing text 'sysadmin@qacoders.com' into text field 'id=email'.</msg>
+<arg>locator=${emailInput}</arg>
+<arg>text=${emailValido}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:55.942788" elapsed="0.356048"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:20:55.631955" elapsed="0.666881"/>
+</kw>
+<kw name="Passo 3 - Digitar uma senha valida" owner="editar_email_com_formato_.com.br">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=${senhaInput}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:20:56.300829" elapsed="0.042884"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:56.344711" level="INFO">Typing password into text field 'id=password'.</msg>
+<msg time="2024-11-18T22:20:56.424498" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>locator=${senhaInput}</arg>
+<arg>password=${senhaValida}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:56.343713" elapsed="0.195478"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:20:56.299831" elapsed="0.240357"/>
+</kw>
+<kw name="Passo 4 - clicar no botao entrar" owner="editar_email_com_formato_.com.br">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=${botaoInput}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:20:56.541186" elapsed="0.034907"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:20:56.577090" level="INFO">Clicking button 'id=login'.</msg>
+<arg>locator=${botaoInput}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:20:56.576093" elapsed="0.126659"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-11-18T22:21:01.704046" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-11-18T22:20:56.702752" elapsed="5.001294"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:20:56.540188" elapsed="5.163858"/>
+</kw>
+<kw name="Passo 5 - Acessar Tela de Cadastro de Usuários" owner="editar_email_com_formato_.com.br">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:01.709260" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</msg>
+<msg time="2024-11-18T22:21:01.717488" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</msg>
+<arg>${CADASTROS_BUTTON}</arg>
+<arg>timeout= 60s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="FAIL" start="2024-11-18T22:21:01.705051" elapsed="0.016427">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${CADASTROS_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-11-18T22:21:01.721478" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${USUARIOS_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-11-18T22:21:01.722476" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=edit</arg>
+<arg>timeout=30</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2024-11-18T22:21:01.722476" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>id=edit</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-11-18T22:21:01.722476" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-11-18T22:21:01.705051" elapsed="0.018422">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</kw>
+<kw name="Passo 6 - Editar Nome e preencher o email com formato .com.br" owner="editar_email_com_formato_.com.br">
+<status status="NOT RUN" start="2024-11-18T22:21:01.723473" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 7 - Clicar no Botão Salvar Alterações" owner="editar_email_com_formato_.com.br">
+<status status="NOT RUN" start="2024-11-18T22:21:01.724470" elapsed="0.000000"/>
+</kw>
+<kw name="Fechar o navegador" owner="editar_email_com_formato_.com.br" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-18T22:21:01.725467" elapsed="2.160635"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:01.725467" elapsed="2.161640"/>
+</kw>
+<status status="FAIL" start="2024-11-18T22:20:47.708347" elapsed="16.178760">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</test>
+<status status="FAIL" start="2024-11-18T22:20:47.681216" elapsed="16.213233"/>
+</suite>
+<suite id="s1-s2-s4" name="Editar Email Sem @" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\email\editar_email_sem_@.robot">
+<test id="s1-s2-s4-t1" name="Cenario de teste: Editar Nome e preencher o email sem @" line="8">
+<kw name="Abrir o navegador" owner="editar_email_sem_@" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:03.924820" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg time="2024-11-18T22:21:04.893270" level="WARN">The chromedriver version (130.0.6723.58) detected in PATH at C:\Users\Iza Wicki\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:21:03.923818" elapsed="3.052088"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-18T22:21:06.976904" elapsed="0.301193"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:03.923818" elapsed="3.355277"/>
+</kw>
+<kw name="Passo 1 - Acessar a pagina de login" owner="editar_email_sem_@">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:07.283084" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg time="2024-11-18T22:21:08.413856" level="WARN">The chromedriver version (130.0.6723.58) detected in PATH at C:\Users\Iza Wicki\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:21:07.282089" elapsed="3.765944"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-18T22:21:11.048033" elapsed="0.128654"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:11.177687" level="INFO">Opening url 'https://automacao.qacoders.dev.br/'</msg>
+<arg>url=${urlBase}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:21:11.176687" elapsed="0.844741"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:07.281091" elapsed="4.740337"/>
+</kw>
+<kw name="Passo 2 - Digitar um e-mail válido" owner="editar_email_sem_@">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=${emailInput}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:21:12.023422" elapsed="0.501085"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:12.525504" level="INFO">Typing text 'sysadmin@qacoders.com' into text field 'id=email'.</msg>
+<arg>locator=${emailInput}</arg>
+<arg>text=${emailValido}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:21:12.525504" elapsed="0.427855"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:12.022423" elapsed="0.930936"/>
+</kw>
+<kw name="Passo 3 - Digitar uma senha valida" owner="editar_email_sem_@">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=${senhaInput}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:21:12.960341" elapsed="0.062832"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:13.024172" level="INFO">Typing password into text field 'id=password'.</msg>
+<msg time="2024-11-18T22:21:13.119914" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>locator=${senhaInput}</arg>
+<arg>password=${senhaValida}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:21:13.024172" elapsed="0.209439"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:12.960341" elapsed="0.273270"/>
+</kw>
+<kw name="Passo 4 - clicar no botao entrar" owner="editar_email_sem_@">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=${botaoInput}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:21:13.235604" elapsed="0.041888"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:13.278489" level="INFO">Clicking button 'id=login'.</msg>
+<arg>locator=${botaoInput}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:21:13.277492" elapsed="0.161570"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-11-18T22:21:18.441018" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-11-18T22:21:13.439062" elapsed="5.001956"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:13.234607" elapsed="5.206411"/>
+</kw>
+<kw name="Passo 5 - Acessar Tela de Cadastro de Usuários" owner="editar_email_sem_@">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${CADASTROS_BUTTON}</arg>
+<arg>timeout= 60s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:21:18.442008" elapsed="0.042108"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:18.485111" level="INFO">Clicking element '//*[@id="Cadastros"]/span'.</msg>
+<arg>${CADASTROS_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:21:18.485111" elapsed="0.125025"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:18.611133" level="INFO">Clicking element '//*[@id="Usuários"]/span'.</msg>
+<arg>${USUARIOS_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:21:18.610136" elapsed="0.175531"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=edit</arg>
+<arg>timeout=30</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:21:18.785667" elapsed="0.356054"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:19.141721" level="INFO">Clicking element 'id=edit'.</msg>
+<arg>id=edit</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:21:19.141721" elapsed="0.114694"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:18.441018" elapsed="0.815397"/>
+</kw>
+<kw name="Passo 6 - Editar Nome e preencher o email sem @" owner="editar_email_sem_@">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:19.258412" level="INFO">Typing text 'Nome Completo Cadastrado' into text field 'id=fullName'.</msg>
+<arg>${FULL_NAME_FIELD}</arg>
+<arg>${NEW_FULL_NAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:21:19.258412" elapsed="0.286234"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:19.547990" level="INFO">Typing text 'sysadmintestetdshvsvsdvsdqacoders.com' into text field 'id=mail'.</msg>
+<arg>${EMAIL_FIELD}</arg>
+<arg>${EMAIL_FORMATO_INVALIDO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:21:19.545642" elapsed="0.263470"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:19.257413" elapsed="0.551699"/>
+</kw>
+<kw name="Passo 7 - Clicar no Botão Salvar Alterações" owner="editar_email_sem_@">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:19.811106" level="INFO">Clicking button 'id=save'.</msg>
+<arg>${SAVE_BUTTON}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:21:19.811106" elapsed="0.122669"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:19.810114" elapsed="0.123661"/>
+</kw>
+<kw name="Passo 8 - Verificar Mensagem de Erro de Email Inválido" owner="editar_email_sem_@">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${MENSAGEM_ERRO_EMAIL}</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:21:19.935772" elapsed="0.052856"/>
+</kw>
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:19.990622" level="INFO">Verifying element 'xpath=//p[@class='css-bbipig' and contains(text(), 'Email inválido')]' contains exact text 'Email inválido'.</msg>
+<arg>${MENSAGEM_ERRO_EMAIL}</arg>
+<arg>Email inválido</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2024-11-18T22:21:19.989625" elapsed="0.067818"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:19.934773" elapsed="0.123668"/>
+</kw>
+<kw name="Fechar o navegador" owner="editar_email_sem_@" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-18T22:21:20.059439" elapsed="2.359931"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:20.058441" elapsed="2.360929"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:03.922896" elapsed="18.497487"/>
+</test>
+<status status="PASS" start="2024-11-18T22:21:03.897441" elapsed="18.524537"/>
+</suite>
+<status status="FAIL" start="2024-11-18T22:20:28.372905" elapsed="54.052139"/>
+</suite>
+<suite id="s1-s3" name="Login" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\login">
+<suite id="s1-s3-s1" name="Login Campo Senha E Email Validos" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\login\login_campo_senha_e_email_validos.robot">
+<test id="s1-s3-s1-t1" name="Cenario de teste: login de usuario perfil de adm com sucesso" line="9">
+<kw name="Abrir o navegador" owner="login_campo_senha_e_email_validos" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:22.452922" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg time="2024-11-18T22:21:23.496729" level="WARN">The chromedriver version (130.0.6723.58) detected in PATH at C:\Users\Iza Wicki\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:21:22.451919" elapsed="3.381199"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-18T22:21:25.833118" elapsed="0.127658"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:22.451919" elapsed="3.508857"/>
+</kw>
+<kw name="Passo 1 - Acessar a pagina de login" owner="login_campo_senha_e_email_validos">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:25.968754" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg time="2024-11-18T22:21:27.368788" level="WARN">The chromedriver version (130.0.6723.58) detected in PATH at C:\Users\Iza Wicki\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:21:25.968754" elapsed="3.837196"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-18T22:21:29.806949" elapsed="0.117683"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:29.925630" level="INFO">Opening url 'https://automacao.qacoders.dev.br/'</msg>
+<msg time="2024-11-18T22:21:31.087204" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</msg>
+<msg time="2024-11-18T22:21:31.094191" level="FAIL">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A96535E]
+	(No symbol) [0x00007FF61A964156]
+	(No symbol) [0x00007FF61A9639BD]
+	(No symbol) [0x00007FF61A9638DA]
+	(No symbol) [0x00007FF61A96151E]
+	(No symbol) [0x00007FF61A961FCF]
+	(No symbol) [0x00007FF61A9708BE]
+	(No symbol) [0x00007FF61A98383D]
+	(No symbol) [0x00007FF61A9891BA]
+	(No symbol) [0x00007FF61A962734]
+	(No symbol) [0x00007FF61A9833CF]
+	(No symbol) [0x00007FF61AA0BC15]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</msg>
+<arg>url=${urlBase}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="FAIL" start="2024-11-18T22:21:29.924632" elapsed="1.174540">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A96535E]
+	(No symbol) [0x00007FF61A964156]
+	(No symbol) [0x00007FF61A9639BD]
+	(No symbol) [0x00007FF61A9638DA]
+	(No symbol) [0x00007FF61A96151E]
+	(No symbol) [0x00007FF61A961FCF]
+	(No symbol) [0x00007FF61A9708BE]
+	(No symbol) [0x00007FF61A98383D]
+	(No symbol) [0x00007FF61A9891BA]
+	(No symbol) [0x00007FF61A962734]
+	(No symbol) [0x00007FF61A9833CF]
+	(No symbol) [0x00007FF61AA0BC15]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</kw>
+<status status="FAIL" start="2024-11-18T22:21:25.967756" elapsed="5.132413">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A96535E]
+	(No symbol) [0x00007FF61A964156]
+	(No symbol) [0x00007FF61A9639BD]
+	(No symbol) [0x00007FF61A9638DA]
+	(No symbol) [0x00007FF61A96151E]
+	(No symbol) [0x00007FF61A961FCF]
+	(No symbol) [0x00007FF61A9708BE]
+	(No symbol) [0x00007FF61A98383D]
+	(No symbol) [0x00007FF61A9891BA]
+	(No symbol) [0x00007FF61A962734]
+	(No symbol) [0x00007FF61A9833CF]
+	(No symbol) [0x00007FF61AA0BC15]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</kw>
+<kw name="Passo 2 - Digitar um e-mail válido" owner="login_campo_senha_e_email_validos">
+<status status="NOT RUN" start="2024-11-18T22:21:31.100169" elapsed="0.000997"/>
+</kw>
+<kw name="Passo 3 - digitar uma senha valida" owner="login_campo_senha_e_email_validos">
+<status status="NOT RUN" start="2024-11-18T22:21:31.101166" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 4 - clicar no botao entrar" owner="login_campo_senha_e_email_validos">
+<status status="NOT RUN" start="2024-11-18T22:21:31.102164" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 5 -verificar se realmente entrou no sistema" owner="login_campo_senha_e_email_validos">
+<status status="NOT RUN" start="2024-11-18T22:21:31.103161" elapsed="0.000000"/>
+</kw>
+<kw name="Fechar o navegador" owner="login_campo_senha_e_email_validos" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-18T22:21:31.104159" elapsed="2.258849"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:31.104159" elapsed="2.258849"/>
+</kw>
+<status status="FAIL" start="2024-11-18T22:21:22.449925" elapsed="10.913929">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A96535E]
+	(No symbol) [0x00007FF61A964156]
+	(No symbol) [0x00007FF61A9639BD]
+	(No symbol) [0x00007FF61A9638DA]
+	(No symbol) [0x00007FF61A96151E]
+	(No symbol) [0x00007FF61A961FCF]
+	(No symbol) [0x00007FF61A9708BE]
+	(No symbol) [0x00007FF61A98383D]
+	(No symbol) [0x00007FF61A9891BA]
+	(No symbol) [0x00007FF61A962734]
+	(No symbol) [0x00007FF61A9833CF]
+	(No symbol) [0x00007FF61AA0BC15]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
+</status>
+</test>
+<status status="FAIL" start="2024-11-18T22:21:22.433227" elapsed="10.940486"/>
+</suite>
+<suite id="s1-s3-s2" name="Login Campo Senha E Email Vazio" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\login\login_campo_senha_e_email_vazio.robot">
+<test id="s1-s3-s2-t1" name="Cenario de teste: Login com os campos e-mail e senha vazios" line="11">
+<kw name="Abrir o navegador" owner="login_campo_senha_e_email_vazio" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:33.399649" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg time="2024-11-18T22:21:34.332222" level="WARN">The chromedriver version (130.0.6723.58) detected in PATH at C:\Users\Iza Wicki\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:21:33.399649" elapsed="3.055819"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-18T22:21:36.455468" elapsed="0.136635"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:33.398651" elapsed="3.193452"/>
+</kw>
+<kw name="Abrir o navegador" owner="login_campo_senha_e_email_vazio">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:36.609059" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg time="2024-11-18T22:21:37.832729" level="WARN">The chromedriver version (130.0.6723.58) detected in PATH at C:\Users\Iza Wicki\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:21:36.608060" elapsed="4.076217"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-18T22:21:40.685277" elapsed="0.069811"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:36.607062" elapsed="4.148026"/>
+</kw>
+<kw name="Passo 1 - Acessar a pagina de login" owner="login_campo_senha_e_email_vazio">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:40.757083" level="INFO">Opening url 'https://automacao.qacoders.dev.br/'</msg>
+<arg>url=${urlBase}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:21:40.757083" elapsed="0.825790"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:40.756085" elapsed="0.827785"/>
+</kw>
+<kw name="Passo 2 - Deixar o campo email vazio" owner="login_campo_senha_e_email_vazio">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=${emailInput}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:21:41.585866" elapsed="0.269302"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:41.857163" level="INFO">Typing text '' into text field 'id=email'.</msg>
+<arg>locator=${emailInput}</arg>
+<arg>text=${emailVazio}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:21:41.856166" elapsed="0.194479"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:41.584869" elapsed="0.465776"/>
+</kw>
+<kw name="Passo 3 - Deixar o campo senha vazio" owner="login_campo_senha_e_email_vazio">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=${senhaInput}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:21:42.051643" elapsed="0.047872"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:42.099515" level="INFO">Typing password into text field 'id=password'.</msg>
+<msg time="2024-11-18T22:21:42.157360" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>locator=${senhaInput}</arg>
+<arg>password=${senhaVazio}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:21:42.099515" elapsed="0.171542"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:42.051643" elapsed="0.219414"/>
+</kw>
+<kw name="Passo 4 - clicar no botao entrar" owner="login_campo_senha_e_email_vazio">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=${botaoInput}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:21:42.273052" elapsed="0.044878"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:42.317930" level="INFO">Clicking button 'id=login'.</msg>
+<arg>locator=${botaoInput}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:21:42.317930" elapsed="0.138629"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-11-18T22:21:47.457639" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-11-18T22:21:42.457557" elapsed="5.000082"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:42.272053" elapsed="5.185586"/>
+</kw>
+<kw name="Passo 5 -verificar mensagem de erro" owner="login_campo_senha_e_email_vazio">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${mensagemError}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:21:47.458598" elapsed="0.033526"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-11-18T22:21:52.493009" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-11-18T22:21:47.492124" elapsed="5.000885"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:47.458598" elapsed="5.034411"/>
+</kw>
+<kw name="Fechar o navegador" owner="login_campo_senha_e_email_vazio">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-18T22:21:52.495001" elapsed="2.355742"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:52.494004" elapsed="2.356739"/>
+</kw>
+<kw name="Fechar o navegador" owner="login_campo_senha_e_email_vazio" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-18T22:21:54.852577" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:54.851581" elapsed="0.000996"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:33.397650" elapsed="21.455820"/>
+</test>
+<status status="PASS" start="2024-11-18T22:21:33.376706" elapsed="21.477804"/>
+</suite>
+<suite id="s1-s3-s3" name="Login Email Invalido" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\login\login_email_invalido.robot">
+<test id="s1-s3-s3-t1" name="Cenario de teste:Login com e-mail inválido e senha válida" line="9">
+<kw name="Abrir o navegador" owner="login_email_invalido" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:54.884506" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg time="2024-11-18T22:21:55.973859" level="WARN">The chromedriver version (130.0.6723.58) detected in PATH at C:\Users\Iza Wicki\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:21:54.884506" elapsed="3.757056"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-18T22:21:58.641562" elapsed="0.142620"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:54.883508" elapsed="3.900674"/>
+</kw>
+<kw name="Abrir o navegador" owner="login_email_invalido">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:21:58.789170" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg time="2024-11-18T22:22:00.157033" level="WARN">The chromedriver version (130.0.6723.58) detected in PATH at C:\Users\Iza Wicki\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:21:58.786176" elapsed="3.552507"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-18T22:22:02.338683" elapsed="0.267285"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:21:58.785180" elapsed="3.820788"/>
+</kw>
+<kw name="Passo 1 - Acessar a pagina de login" owner="login_email_invalido">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:22:02.607962" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg time="2024-11-18T22:22:04.064251" level="WARN">The chromedriver version (130.0.6723.58) detected in PATH at C:\Users\Iza Wicki\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:22:02.607962" elapsed="3.755980"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-18T22:22:06.363942" elapsed="0.140625"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:22:06.505565" level="INFO">Opening url 'https://automacao.qacoders.dev.br/'</msg>
+<arg>url=${urlBase}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-11-18T22:22:06.504567" elapsed="0.627321"/>
+</kw>
+<status status="PASS" start="2024-11-18T22:22:02.606966" elapsed="4.525917"/>
+</kw>
+<kw name="Passo 2 - Digitar um e-mail inválido e verificar a mensagem de erro" owner="login_email_invalido">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=${emailInput}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:22:07.134881" elapsed="0.293997"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:22:07.429875" level="INFO">Typing text 'jjjj' into text field 'id=email'.</msg>
+<arg>locator=${emailInput}</arg>
+<arg>text=${emailInvalido}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-18T22:22:07.428878" elapsed="0.258310"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${mensagemErroLocator}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-18T22:22:07.687188" elapsed="0.038895"/>
+</kw>
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2024-11-18T22:22:07.727080" level="INFO">Verifying element 'css=p.css-18xtib3' contains exact text 'Digite um email válido'.</msg>
+<msg time="2024-11-18T22:22:08.001345" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF61AE3E1F5+2972373]
+	(No symbol) [0x00007FF61AAD55F0]
+	(No symbol) [0x00007FF61A9757FA]
+	(No symbol) [0x00007FF61A94FA85]
+	(No symbol) [0x00007FF61A9F2B17]
+	(No symbol) [0x00007FF61AA0B1D1]
+	(No symbol) [0x00007FF61A9EB823]
+	(No symbol) [0x00007FF61A9B75E8]
+	(No symbol) [0x00007FF61A9B8751]
+	GetHandleVerifier [0x00007FF61AE647BD+3129501]
+	GetHandleVerifier [0x00007FF61AEB4D00+3458528]
+	GetHandleVerifier [0x00007FF61AEAB05D+3418429]
+	GetHandleVerifier [0x00007FF61AC3687B+844123]
+	(No symbol) [0x00007FF61AAE0AFF]
+	(No symbol) [0x00007FF61AADC6D4]
+	(No symbol) [0x00007FF61AADC86D]
+	(No symbol) [0x00007FF61AACBD79]
+	BaseThreadInitThunk [0x00007FFA95BA7374+20]
+	RtlUserThreadStart [0x00007FFA96BFCC91+33]
