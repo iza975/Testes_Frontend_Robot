@@ -1,5 +1,5 @@
 
-name: Robot Framework Tests
+name: Teste API com Robot
  
 on: push
  
