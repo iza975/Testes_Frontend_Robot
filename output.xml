@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on win32)" generated="2024-11-20T21:52:11.358487" rpa="false" schemaversion="5">
+<suite id="s1" name="Testes Frontend  Robot" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot">
+<suite id="s1-s1" name="Tests" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests">
+<suite id="s1-s1-s1" name="Cadastro Empresa" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\cadastro_empresa">
+<suite id="s1-s1-s1-s1" name="Acesso Tela Cadastro Empresa" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\cadastro_empresa\acesso_tela_cadastro_empresa.robot">
+<test id="s1-s1-s1-s1-t1" name="Fazer Login de usuario e acessar a tela de cadastro" line="10">
+<kw name="Abrir o navegador e acessar página inicial" owner="acesso_tela_cadastro_empresa">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:52:12.063362" level="INFO">Opening browser 'chrome' to base url 'https://automacao.qacoders.dev.br/login'.</msg>
+<msg time="2024-11-20T21:52:48.261227" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<msg time="2024-11-20T21:52:48.312089" level="FAIL">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<arg>${urlBase}</arg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2024-11-20T21:52:12.063362" elapsed="36.268676">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" start="2024-11-20T21:52:48.334041" elapsed="0.001990"/>
+</kw>
+<status status="FAIL" start="2024-11-20T21:52:12.061367" elapsed="36.275657">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<kw name="Realizar Login" owner="acesso_tela_cadastro_empresa">
+<status status="NOT RUN" start="2024-11-20T21:52:48.338022" elapsed="0.000000"/>
+</kw>
+<kw name="Acessar Tela de Cadastro de Empresa" owner="acesso_tela_cadastro_empresa">
+<status status="NOT RUN" start="2024-11-20T21:52:48.339018" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-11-20T21:52:12.060367" elapsed="36.279649">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</test>
+<status status="FAIL" start="2024-11-20T21:52:11.436040" elapsed="36.934895"/>
+</suite>
+<suite id="s1-s1-s1-s2" name="Acesso Tela Cadastro Usuario" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\cadastro_empresa\acesso_tela_cadastro_usuario.robot">
+<test id="s1-s1-s1-s2-t1" name="Fazer Login de usuario e acessar a tela de cadastro" line="11">
+<kw name="Abrir o navegador e acessar página inicial" owner="acesso_tela_cadastro_usuario">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:52:48.504574" level="INFO">
