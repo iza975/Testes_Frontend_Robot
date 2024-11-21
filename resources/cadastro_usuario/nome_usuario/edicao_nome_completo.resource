@@ -4,7 +4,10 @@ Library   SeleniumLibrary
 Library   String    
 
 *** Keywords ***
-
+Configurar Navegador
+    [Documentation]    Este keyword configura o navegador no modo headless e abre o Chrome.
+    ${options}    Create Dictionary    headless=True    disable_gpu=True    no_sandbox=True    start_maximized=True
+    Open Browser    https://www.exemplo.com    chrome    options=${options}
 
 Editar Nome Completo Vazio
     [Documentation]    Este teste valida que a mensagem de erro deve aparecer quando o campo "Nome Completo" é deixado vazio.

@@ -92,3 +92,9 @@ ${NAME_WITH_NUMBERS}           "Nome123"                         # Nome contendo
 ${EMPTY_SURNAME}               ""                                 # Sobrenome vazio
 ${empty_value} =    ''
                   
+${CHROME_PATH}    C:/Program Files/Google/Chrome/Application/chrome.exe  # Caminho para o seu Chrome
+${WEBDRIVER_PATH}    C:/path/to/chromedriver.exe  # Caminho para o seu chromedriver
+${ERROR_MENSAGEM_NOME_VAZIO}    O campo nome completo é obrigatório
+${FULL_NAME_FIELD}    xpath=//input[@name='fullName']  # Altere conforme o seu seletor
+${EMAIL_FIELD}    xpath=//input[@name='email']  # Altere conforme o seu seletor
+${SAVE_BUTTON}    xpath=//button[@name='save']  # Altere conforme o seu seletor

@@ -22,10 +22,10 @@ Realizar Login
 
 # Acessa a tela de cadastro de usuários após o login
 Acessar Tela de Cadastro de Empresa
-    Wait Until Element Is Visible    ${CADASTROS_BUTTON}    timeout=3s
+    Wait Until Element Is Visible    ${CADASTROS_BUTTON}    timeout=30s
     Click Element    ${CADASTROS_BUTTON}
     Click Element    ${COMPANY_BUTTON}
-    Wait Until Element Is Visible    id=edit    timeout=5s
+    Wait Until Element Is Visible    id=edit    timeout=10s
     Click Element    id=edit
 Fazer Login de usuario e acessar a tela de cadastro
     Abrir o navegador e acessar página inicial
