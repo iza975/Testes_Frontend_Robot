@@ -27,8 +27,7 @@ jobs:
       - name: rodando os testes
         # run: echo Executando os testes de API do Robot
         run: |
-          robot --name "API Tests" --outputdir results/ tests/
-       
+          robot --name "API Tests" --outputdir C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_Robot\tests
 
       - name: Salvando os resultados dos testes   
         uses: actions/upload-artifact@v4
