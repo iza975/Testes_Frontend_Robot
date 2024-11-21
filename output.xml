@@ -610,3 +610,2011 @@ Stacktrace:
 	BaseThreadInitThunk [0x765FFCC9+25]
 	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
 	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<msg time="2024-11-20T21:53:49.125602" level="FAIL">WebDriverException: Message: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBD773]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBE6B]
+	(No symbol) [0x00CBAB45]
+	(No symbol) [0x00CAEBC7]
+	(No symbol) [0x00CAE20F]
+	(No symbol) [0x00D5DD88]
+	(No symbol) [0x00D31EFC]
+	(No symbol) [0x00D4B51E]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="FAIL" start="2024-11-20T21:53:48.072418" elapsed="1.057172">WebDriverException: Message: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBD773]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBE6B]
+	(No symbol) [0x00CBAB45]
+	(No symbol) [0x00CAEBC7]
+	(No symbol) [0x00CAE20F]
+	(No symbol) [0x00D5DD88]
+	(No symbol) [0x00D31EFC]
+	(No symbol) [0x00D4B51E]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<arg>url=${urlBase}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" start="2024-11-20T21:53:49.129590" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-11-20T21:53:42.415545" elapsed="6.715043">WebDriverException: Message: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBD773]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBE6B]
+	(No symbol) [0x00CBAB45]
+	(No symbol) [0x00CAEBC7]
+	(No symbol) [0x00CAE20F]
+	(No symbol) [0x00D5DD88]
+	(No symbol) [0x00D31EFC]
+	(No symbol) [0x00D4B51E]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<kw name="Realizar Login" owner="acesso_tela_cadastro_usuario">
+<status status="NOT RUN" start="2024-11-20T21:53:49.130588" elapsed="0.000000"/>
+</kw>
+<kw name="Acessar Tela de Cadastro de Usuários" owner="acesso_tela_cadastro_usuario">
+<status status="NOT RUN" start="2024-11-20T21:53:49.131585" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-11-20T21:53:42.408562" elapsed="6.723023">WebDriverException: Message: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBD773]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBE6B]
+	(No symbol) [0x00CBAB45]
+	(No symbol) [0x00CAEBC7]
+	(No symbol) [0x00CAE20F]
+	(No symbol) [0x00D5DD88]
+	(No symbol) [0x00D31EFC]
+	(No symbol) [0x00D4B51E]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<status status="FAIL" start="2024-11-20T21:53:42.406569" elapsed="6.798819">Setup failed:
+WebDriverException: Message: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBD773]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBE6B]
+	(No symbol) [0x00CBAB45]
+	(No symbol) [0x00CAEBC7]
+	(No symbol) [0x00CAE20F]
+	(No symbol) [0x00D5DD88]
+	(No symbol) [0x00D31EFC]
+	(No symbol) [0x00D4B51E]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</test>
+<status status="FAIL" start="2024-11-20T21:53:42.330772" elapsed="7.241635"/>
+</suite>
+<suite id="s1-s1-s2-s2" name="Editar Email Com Espacos" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\email\editar_email_com_espacos.robot">
+<test id="s1-s1-s2-s2-t1" name="Cenario de teste: Editar campo &quot;E-mail&quot; contendo espaços" line="10">
+<kw name="Passo 1 - Acessar a pagina de login" owner="editar_email_com_espacos">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:53:49.877590" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:53:49.877590" elapsed="10.201721"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-20T21:54:00.079311" elapsed="0.137635"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:54:00.217945" level="INFO">Opening url 'https://automacao.qacoders.dev.br/'</msg>
+<msg time="2024-11-20T21:54:02.571646" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<msg time="2024-11-20T21:54:02.751165" level="FAIL">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBC619]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<arg>url=${urlBase}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="FAIL" start="2024-11-20T21:54:00.216946" elapsed="2.537213">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBC619]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<status status="FAIL" start="2024-11-20T21:53:49.876593" elapsed="12.877566">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBC619]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<kw name="Passo 2 - Digitar um e-mail válido" owner="editar_email_com_espacos">
+<status status="NOT RUN" start="2024-11-20T21:54:02.805022" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 3 - Digitar uma senha valida" owner="editar_email_com_espacos">
+<status status="NOT RUN" start="2024-11-20T21:54:02.850899" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 4 - clicar no botao entrar" owner="editar_email_com_espacos">
+<status status="NOT RUN" start="2024-11-20T21:54:02.886803" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 5 - Acessar Tela de Cadastro de Usuários" owner="editar_email_com_espacos">
+<status status="NOT RUN" start="2024-11-20T21:54:02.909741" elapsed="0.000000"/>
+</kw>
+<kw name=" Passo 6 - Editar Nome e preencher o email com espaços" owner="editar_email_com_espacos">
+<status status="NOT RUN" start="2024-11-20T21:54:02.945647" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 7 - Clicar no Botão Salvar Alterações" owner="editar_email_com_espacos">
+<status status="NOT RUN" start="2024-11-20T21:54:02.980554" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 8 - Verificar Mensagem de Erro de Email Inválido" owner="editar_email_com_espacos">
+<status status="NOT RUN" start="2024-11-20T21:54:03.015459" elapsed="0.000000"/>
+</kw>
+<kw name="Fechar o navegador" owner="editar_email_com_espacos" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-20T21:54:03.052363" elapsed="6.182465"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:54:03.051363" elapsed="6.183465"/>
+</kw>
+<status status="FAIL" start="2024-11-20T21:53:49.840688" elapsed="19.395141">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBC619]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</test>
+<status status="FAIL" start="2024-11-20T21:53:49.743947" elapsed="19.500856"/>
+</suite>
+<suite id="s1-s1-s2-s3" name="Editar Email Com Formato .Com.Br" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\email\editar_email_com_formato_.com.br.robot">
+<test id="s1-s1-s2-s3-t1" name="Cenario de teste: Editar campo &quot;E-mail&quot; com formato .com.br" line="8">
+<kw name="Abrir o navegador" owner="editar_email_com_formato_.com.br" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:54:09.267744" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:54:09.267744" elapsed="4.019252"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-20T21:54:13.287995" elapsed="0.270275"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:54:09.266745" elapsed="4.291525"/>
+</kw>
+<kw name="Passo 1 - Acessar a pagina de login" owner="editar_email_com_formato_.com.br">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:54:13.563257" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:54:13.563257" elapsed="6.236325"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-20T21:54:19.800579" elapsed="0.193482"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:54:19.995057" level="INFO">Opening url 'https://automacao.qacoders.dev.br/'</msg>
+<msg time="2024-11-20T21:54:21.861067" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<msg time="2024-11-20T21:54:21.900961" level="FAIL">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<arg>url=${urlBase}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="FAIL" start="2024-11-20T21:54:19.994061" elapsed="1.909891">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<status status="FAIL" start="2024-11-20T21:54:13.562259" elapsed="8.341693">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<kw name="Passo 2 - Digitar um e-mail válido" owner="editar_email_com_formato_.com.br">
+<status status="NOT RUN" start="2024-11-20T21:54:21.904950" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 3 - Digitar uma senha valida" owner="editar_email_com_formato_.com.br">
+<status status="NOT RUN" start="2024-11-20T21:54:21.905947" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 4 - clicar no botao entrar" owner="editar_email_com_formato_.com.br">
+<status status="NOT RUN" start="2024-11-20T21:54:21.906945" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 5 - Acessar Tela de Cadastro de Usuários" owner="editar_email_com_formato_.com.br">
+<status status="NOT RUN" start="2024-11-20T21:54:21.907942" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 6 - Editar Nome e preencher o email com formato .com.br" owner="editar_email_com_formato_.com.br">
+<status status="NOT RUN" start="2024-11-20T21:54:21.908940" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 7 - Clicar no Botão Salvar Alterações" owner="editar_email_com_formato_.com.br">
+<status status="NOT RUN" start="2024-11-20T21:54:21.908940" elapsed="0.000997"/>
+</kw>
+<kw name="Fechar o navegador" owner="editar_email_com_formato_.com.br" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-20T21:54:21.911933" elapsed="18.813466"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:54:21.910934" elapsed="18.814465"/>
+</kw>
+<status status="FAIL" start="2024-11-20T21:54:09.264751" elapsed="31.461655">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</test>
+<status status="FAIL" start="2024-11-20T21:54:09.248795" elapsed="31.487581"/>
+</suite>
+<suite id="s1-s1-s2-s4" name="Editar Email Sem @" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\email\editar_email_sem_@.robot">
+<test id="s1-s1-s2-s4-t1" name="Cenario de teste: Editar Nome e preencher o email sem @" line="8">
+<kw name="Abrir o navegador" owner="editar_email_sem_@" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:54:40.758074" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:54:40.758074" elapsed="3.242199"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-20T21:54:44.000273" elapsed="0.082786"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:54:40.757070" elapsed="3.326978"/>
+</kw>
+<kw name="Passo 1 - Acessar a pagina de login" owner="editar_email_sem_@">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:54:44.090034" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:54:44.090034" elapsed="12.027835"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-20T21:54:56.118867" elapsed="0.288229"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:54:56.408094" level="INFO">Opening url 'https://automacao.qacoders.dev.br/'</msg>
+<arg>url=${urlBase}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:54:56.407096" elapsed="2.522256"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:54:44.089034" elapsed="14.840318"/>
+</kw>
+<kw name="Passo 2 - Digitar um e-mail válido" owner="editar_email_sem_@">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=${emailInput}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-20T21:54:58.940324" elapsed="0.387960"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:54:59.330279" level="INFO">Typing text 'sysadmin@qacoders.com' into text field 'id=email'.</msg>
+<arg>locator=${emailInput}</arg>
+<arg>text=${emailValido}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-20T21:54:59.329282" elapsed="0.519611"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:54:58.939325" elapsed="0.909568"/>
+</kw>
+<kw name="Passo 3 - Digitar uma senha valida" owner="editar_email_sem_@">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=${senhaInput}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-20T21:54:59.859864" elapsed="0.104719"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:54:59.965580" level="INFO">Typing password into text field 'id=password'.</msg>
+<msg time="2024-11-20T21:55:00.032402" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>locator=${senhaInput}</arg>
+<arg>password=${senhaValida}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-20T21:54:59.964583" elapsed="0.241355"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:54:59.858867" elapsed="0.347071"/>
+</kw>
+<kw name="Passo 4 - clicar no botao entrar" owner="editar_email_sem_@">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>locator=${botaoInput}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-20T21:55:00.214913" elapsed="0.092751"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:55:00.308663" level="INFO">Clicking button 'id=login'.</msg>
+<arg>locator=${botaoInput}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-20T21:55:00.308663" elapsed="0.422869"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-11-20T21:55:05.732158" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-11-20T21:55:00.731532" elapsed="5.000626"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:55:00.213916" elapsed="5.518242"/>
+</kw>
+<kw name="Passo 5 - Acessar Tela de Cadastro de Usuários" owner="editar_email_sem_@">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:55:05.866800" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<msg time="2024-11-20T21:55:05.901708" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<arg>${CADASTROS_BUTTON}</arg>
+<arg>timeout= 60s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="FAIL" start="2024-11-20T21:55:05.753106" elapsed="0.154586">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${CADASTROS_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-11-20T21:55:05.908690" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${USUARIOS_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-11-20T21:55:05.908690" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=edit</arg>
+<arg>timeout=30</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2024-11-20T21:55:05.909687" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>id=edit</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-11-20T21:55:05.909687" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-11-20T21:55:05.752105" elapsed="0.158578">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<kw name="Passo 6 - Editar Nome e preencher o email sem @" owner="editar_email_sem_@">
+<status status="NOT RUN" start="2024-11-20T21:55:05.910683" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 7 - Clicar no Botão Salvar Alterações" owner="editar_email_sem_@">
+<status status="NOT RUN" start="2024-11-20T21:55:05.911680" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 8 - Verificar Mensagem de Erro de Email Inválido" owner="editar_email_sem_@">
+<status status="NOT RUN" start="2024-11-20T21:55:05.912678" elapsed="0.000000"/>
+</kw>
+<kw name="Fechar o navegador" owner="editar_email_sem_@" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-20T21:55:05.913675" elapsed="4.543526"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:55:05.913675" elapsed="4.543526"/>
+</kw>
+<status status="FAIL" start="2024-11-20T21:54:40.755052" elapsed="29.702149">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</test>
+<status status="FAIL" start="2024-11-20T21:54:40.739080" elapsed="29.726104"/>
+</suite>
+<status status="FAIL" start="2024-11-20T21:53:42.319802" elapsed="88.147376"/>
+</suite>
+<suite id="s1-s1-s3" name="Login" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\login">
+<suite id="s1-s1-s3-s1" name="Login Campo Senha E Email Validos" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\login\login_campo_senha_e_email_validos.robot">
+<test id="s1-s1-s3-s1-t1" name="Cenario de teste: login de usuario perfil de adm com sucesso" line="9">
+<kw name="Abrir o navegador" owner="login_campo_senha_e_email_validos" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:55:10.493106" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:55:10.493106" elapsed="2.848382"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-20T21:55:13.341488" elapsed="0.307178"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:55:10.492111" elapsed="3.156555"/>
+</kw>
+<kw name="Passo 1 - Acessar a pagina de login" owner="login_campo_senha_e_email_validos">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:55:13.650660" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:55:13.650660" elapsed="4.545844"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-20T21:55:18.197503" elapsed="0.142617"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:55:18.341117" level="INFO">Opening url 'https://automacao.qacoders.dev.br/'</msg>
+<msg time="2024-11-20T21:55:22.139959" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<msg time="2024-11-20T21:55:22.188830" level="FAIL">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<arg>url=${urlBase}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="FAIL" start="2024-11-20T21:55:18.341117" elapsed="3.851702">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<status status="FAIL" start="2024-11-20T21:55:13.649662" elapsed="8.544154">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<kw name="Passo 2 - Digitar um e-mail válido" owner="login_campo_senha_e_email_validos">
+<status status="NOT RUN" start="2024-11-20T21:55:22.194815" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 3 - digitar uma senha valida" owner="login_campo_senha_e_email_validos">
+<status status="NOT RUN" start="2024-11-20T21:55:22.194815" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 4 - clicar no botao entrar" owner="login_campo_senha_e_email_validos">
+<status status="NOT RUN" start="2024-11-20T21:55:22.195811" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 5 -verificar se realmente entrou no sistema" owner="login_campo_senha_e_email_validos">
+<status status="NOT RUN" start="2024-11-20T21:55:22.196808" elapsed="0.000000"/>
+</kw>
+<kw name="Fechar o navegador" owner="login_campo_senha_e_email_validos" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-20T21:55:22.197805" elapsed="13.084014"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:55:22.196808" elapsed="13.085011"/>
+</kw>
+<status status="FAIL" start="2024-11-20T21:55:10.491114" elapsed="24.791703">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</test>
+<status status="FAIL" start="2024-11-20T21:55:10.475154" elapsed="24.821627"/>
+</suite>
+<suite id="s1-s1-s3-s2" name="Login Campo Senha E Email Vazio" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\login\login_campo_senha_e_email_vazio.robot">
+<test id="s1-s1-s3-s2-t1" name="Cenario de teste: Login com os campos e-mail e senha vazios" line="11">
+<kw name="Abrir o navegador" owner="login_campo_senha_e_email_vazio" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:55:35.327697" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:55:35.326699" elapsed="3.178507"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-20T21:55:38.505206" elapsed="0.125665"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:55:35.326699" elapsed="3.304172"/>
+</kw>
+<kw name="Abrir o navegador" owner="login_campo_senha_e_email_vazio">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:55:38.632864" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:55:38.632864" elapsed="5.012600"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-20T21:55:43.645464" elapsed="0.092749"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:55:38.631867" elapsed="5.107344"/>
+</kw>
+<kw name="Passo 1 - Acessar a pagina de login" owner="login_campo_senha_e_email_vazio">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:55:43.751178" level="INFO">Opening url 'https://automacao.qacoders.dev.br/'</msg>
+<msg time="2024-11-20T21:55:45.920380" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<msg time="2024-11-20T21:55:45.944314" level="FAIL">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<arg>url=${urlBase}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="FAIL" start="2024-11-20T21:55:43.750181" elapsed="2.197126">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<status status="FAIL" start="2024-11-20T21:55:43.749183" elapsed="2.199120">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<kw name="Passo 2 - Deixar o campo email vazio" owner="login_campo_senha_e_email_vazio">
+<status status="NOT RUN" start="2024-11-20T21:55:45.949300" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 3 - Deixar o campo senha vazio" owner="login_campo_senha_e_email_vazio">
+<status status="NOT RUN" start="2024-11-20T21:55:45.949300" elapsed="0.000997"/>
+</kw>
+<kw name="Passo 4 - clicar no botao entrar" owner="login_campo_senha_e_email_vazio">
+<status status="NOT RUN" start="2024-11-20T21:55:45.950297" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 5 -verificar mensagem de erro" owner="login_campo_senha_e_email_vazio">
+<status status="NOT RUN" start="2024-11-20T21:55:45.951294" elapsed="0.000000"/>
+</kw>
+<kw name="Fechar o navegador" owner="login_campo_senha_e_email_vazio">
+<status status="NOT RUN" start="2024-11-20T21:55:45.952292" elapsed="0.000000"/>
+</kw>
+<kw name="Fechar o navegador" owner="login_campo_senha_e_email_vazio" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-20T21:55:45.954287" elapsed="20.014970"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:55:45.952292" elapsed="20.016965"/>
+</kw>
+<status status="FAIL" start="2024-11-20T21:55:35.323708" elapsed="30.645549">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</test>
+<status status="FAIL" start="2024-11-20T21:55:35.299771" elapsed="30.680428"/>
+</suite>
+<suite id="s1-s1-s3-s3" name="Login Email Invalido" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\login\login_email_invalido.robot">
+<test id="s1-s1-s3-s3-t1" name="Cenario de teste:Login com e-mail inválido e senha válida" line="9">
+<kw name="Abrir o navegador" owner="login_email_invalido" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:56:06.004134" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:56:06.003137" elapsed="3.239739"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-20T21:56:09.243873" elapsed="0.141622"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:56:06.002140" elapsed="3.383355"/>
+</kw>
+<kw name="Abrir o navegador" owner="login_email_invalido">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:56:09.395471" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:56:09.394471" elapsed="5.592047"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-20T21:56:14.986518" elapsed="0.088763"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:56:09.393475" elapsed="5.681806"/>
+</kw>
+<kw name="Passo 1 - Acessar a pagina de login" owner="login_email_invalido">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:56:15.080266" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:56:15.080266" elapsed="5.135269"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-20T21:56:20.216533" elapsed="0.369012"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:56:20.586543" level="INFO">Opening url 'https://automacao.qacoders.dev.br/'</msg>
+<msg time="2024-11-20T21:56:23.326217" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<msg time="2024-11-20T21:56:23.378078" level="FAIL">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<arg>url=${urlBase}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="FAIL" start="2024-11-20T21:56:20.586543" elapsed="2.795524">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<status status="FAIL" start="2024-11-20T21:56:15.078279" elapsed="8.303788">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<kw name="Passo 2 - Digitar um e-mail inválido e verificar a mensagem de erro" owner="login_email_invalido">
+<status status="NOT RUN" start="2024-11-20T21:56:23.383065" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 3 - Digitar uma senha válida" owner="login_email_invalido">
+<status status="NOT RUN" start="2024-11-20T21:56:23.384061" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 4 - clicar no botao entrar" owner="login_email_invalido">
+<status status="NOT RUN" start="2024-11-20T21:56:23.385059" elapsed="0.000000"/>
+</kw>
+<kw name="Fechar o Navegador" owner="login_email_invalido">
+<status status="NOT RUN" start="2024-11-20T21:56:23.385059" elapsed="0.000000"/>
+</kw>
+<kw name="Fechar o Navegador" owner="login_email_invalido" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-20T21:56:23.387053" elapsed="20.279771"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:56:23.386056" elapsed="20.280768"/>
+</kw>
+<status status="FAIL" start="2024-11-20T21:56:06.001146" elapsed="37.696595">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</test>
+<status status="FAIL" start="2024-11-20T21:56:05.982193" elapsed="37.936956"/>
+</suite>
+<suite id="s1-s1-s3-s4" name="Login Senha Incorreta" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\login\login_senha_incorreta.robot">
+<test id="s1-s1-s3-s4-t1" name="Cenario de teste: Login com e-mail válido e senha inválida" line="9">
+<kw name="Abrir o navegador" owner="login_senha_incorreta" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:56:44.122607" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:56:44.121609" elapsed="6.118640"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-20T21:56:50.240249" elapsed="0.141621"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:56:44.120611" elapsed="6.261259"/>
+</kw>
+<kw name="Abrir o navegador" owner="login_senha_incorreta">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:56:50.395834" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:56:50.395834" elapsed="5.254949"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-20T21:56:55.650783" elapsed="0.129653"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:56:50.394837" elapsed="5.385599"/>
+</kw>
+<kw name="Passo 1 - Acessar a pagina de login" owner="login_senha_incorreta">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:56:55.782431" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:56:55.782431" elapsed="19.064489"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-20T21:57:14.846920" elapsed="0.120677"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:57:14.968593" level="INFO">Opening url 'https://automacao.qacoders.dev.br/'</msg>
+<msg time="2024-11-20T21:57:16.408744" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<msg time="2024-11-20T21:57:16.463596" level="FAIL">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<arg>url=${urlBase}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="FAIL" start="2024-11-20T21:57:14.967597" elapsed="1.498992">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<status status="FAIL" start="2024-11-20T21:56:55.781433" elapsed="20.686154">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<kw name="Passo 2 - Digitar um e-mail válido" owner="login_senha_incorreta">
+<status status="NOT RUN" start="2024-11-20T21:57:16.473569" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 3 - digitar uma senha incorreta" owner="login_senha_incorreta">
+<status status="NOT RUN" start="2024-11-20T21:57:16.474567" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 5 - clicar no botao entrar" owner="login_senha_incorreta">
+<status status="NOT RUN" start="2024-11-20T21:57:16.475567" elapsed="0.000000"/>
+</kw>
+<kw name="Passo 6 -verificar se um simbolo ou mensagem de erro aparece" owner="login_senha_incorreta">
+<status status="NOT RUN" start="2024-11-20T21:57:16.476563" elapsed="0.000000"/>
+</kw>
+<kw name="Fechar o navegador" owner="login_senha_incorreta">
+<status status="NOT RUN" start="2024-11-20T21:57:16.476563" elapsed="0.000998"/>
+</kw>
+<kw name="Fechar o navegador" owner="login_senha_incorreta" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-20T21:57:16.538397" elapsed="8.730653"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:57:16.484540" elapsed="8.785509"/>
+</kw>
+<status status="FAIL" start="2024-11-20T21:56:44.101661" elapsed="41.181351">WebDriverException: Message: target frame detached: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CBE9F8]
+	(No symbol) [0x00CBDC07]
+	(No symbol) [0x00CBD567]
+	(No symbol) [0x00CBD481]
+	(No symbol) [0x00CBB91B]
+	(No symbol) [0x00CBBF8D]
+	(No symbol) [0x00CC822A]
+	(No symbol) [0x00CD7905]
+	(No symbol) [0x00CDC766]
+	(No symbol) [0x00CBC595]
+	(No symbol) [0x00CD7537]
+	(No symbol) [0x00D4B854]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</test>
+<status status="FAIL" start="2024-11-20T21:56:44.021878" elapsed="41.438660"/>
+</suite>
+<status status="FAIL" start="2024-11-20T21:55:10.470172" elapsed="134.995353"/>
+</suite>
+<suite id="s1-s1-s4" name="Nome-Usuario" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\nome-usuario">
+<suite id="s1-s1-s4-s1" name="Edicao Nome Completo" source="C:\Users\Iza Wicki\OneDrive\Documentos\Testes_Frontend_ Robot\tests\nome-usuario\edicao_nome_completo.robot">
+<test id="s1-s1-s4-s1-t1" name=" Editar Nome" line="13">
+<kw name="Fazer Login de usuario e acessar a tela de cadastro" owner="acesso_tela_cadastro_usuario" type="SETUP">
+<kw name="Abrir o navegador e acessar página inicial" owner="acesso_tela_cadastro_usuario">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:57:25.531348" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:57:25.531348" elapsed="3.483138"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-11-20T21:57:29.015484" elapsed="0.063839"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:57:29.080311" level="INFO">Opening url 'https://automacao.qacoders.dev.br/login'</msg>
+<arg>url=${urlBase}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-11-20T21:57:29.079323" elapsed="2.809475"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:57:25.530351" elapsed="6.359446"/>
+</kw>
+<kw name="Realizar Login" owner="acesso_tela_cadastro_usuario">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${EMAIL_LOGIN}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-20T21:57:31.890793" elapsed="0.173537"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:57:32.065327" level="INFO">Typing text 'sysadmin@qacoders.com' into text field 'id=email'.</msg>
+<arg>${EMAIL_LOGIN}</arg>
+<arg>${EMAIL_VALIDO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-20T21:57:32.064330" elapsed="0.639292"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${SENHA_LOGIN}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-20T21:57:32.703622" elapsed="0.067817"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:57:32.772438" level="INFO">Typing password into text field 'id=password'.</msg>
+<msg time="2024-11-20T21:57:32.839261" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>${SENHA_LOGIN}</arg>
+<arg>${SENHA_VALIDA}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-20T21:57:32.772438" elapsed="0.277258"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${BOTAO_IMPUT}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-20T21:57:33.049696" elapsed="0.092752"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:57:33.143444" level="INFO">Clicking button 'id=login'.</msg>
+<arg>${BOTAO_IMPUT}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-20T21:57:33.142448" elapsed="0.245343"/>
+</kw>
+<status status="PASS" start="2024-11-20T21:57:31.889797" elapsed="1.498992"/>
+</kw>
+<kw name="Acessar Tela de Cadastro de Usuários" owner="acesso_tela_cadastro_usuario">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:57:33.830608" level="INFO">Suppressing StaleElementReferenceException from Selenium.</msg>
+<arg>${CADASTROS_BUTTON}</arg>
+<arg>timeout=60</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-20T21:57:33.389788" elapsed="0.740019"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-11-20T21:57:39.129941" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-11-20T21:57:34.129807" elapsed="5.000134"/>
+</kw>
+<kw name="Wait Until Element Is Enabled" owner="SeleniumLibrary">
+<msg time="2024-11-20T21:57:39.243639" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<msg time="2024-11-20T21:57:39.267577" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</msg>
+<arg>${CADASTROS_BUTTON}</arg>
+<arg>timeout=60</arg>
+<doc>Waits until the element ``locator`` is enabled.</doc>
+<status status="FAIL" start="2024-11-20T21:57:39.129941" elapsed="0.142621">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-11-20T21:57:39.272562" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${CADASTROS_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-11-20T21:57:39.273560" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${USUARIOS_BUTTON}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2024-11-20T21:57:39.273560" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${USUARIOS_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-11-20T21:57:39.273560" elapsed="0.000997"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=edit</arg>
+<arg>timeout=30</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2024-11-20T21:57:39.274557" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>id=edit</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-11-20T21:57:39.274557" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-11-20T21:57:33.388789" elapsed="5.886765">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<status status="FAIL" start="2024-11-20T21:57:25.529354" elapsed="13.746200">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
+</status>
+</kw>
+<status status="FAIL" start="2024-11-20T21:57:25.528357" elapsed="13.748195">Setup failed:
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00E633E3+25059]
+	(No symbol) [0x00DECDE4]
+	(No symbol) [0x00CCBEC3]
+	(No symbol) [0x00CAD93B]
+	(No symbol) [0x00D3800F]
+	(No symbol) [0x00D4AE49]
+	(No symbol) [0x00D31C96]
+	(No symbol) [0x00D03FAC]
+	(No symbol) [0x00D04F3D]
+	GetHandleVerifier [0x01155543+3113795]
+	GetHandleVerifier [0x0116A20A+3198986]
+	GetHandleVerifier [0x011629E2+3168226]
+	GetHandleVerifier [0x00F03250+680016]
+	(No symbol) [0x00DF572D]
+	(No symbol) [0x00DF29D8]
+	(No symbol) [0x00DF2B75]
+	(No symbol) [0x00DE57D0]
+	BaseThreadInitThunk [0x765FFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x76FB809E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FB806E+238]
